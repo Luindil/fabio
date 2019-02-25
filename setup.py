@@ -90,7 +90,7 @@ export LC_ALL=en_US.utf-8
 
 def get_version():
     """Returns current version number from version.py file"""
-    import version
+    import .version
     return version.strictversion
 
 
